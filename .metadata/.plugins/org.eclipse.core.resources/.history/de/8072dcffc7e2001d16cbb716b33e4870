@@ -1,0 +1,8 @@
+package com.app.utility;
+
+public class DemoData {
+	
+	public static Map<Integer, Employee> getDemoData(){
+		Map<Integer, Employee> map = new Map<Integer, Employee>();
+	}
+}

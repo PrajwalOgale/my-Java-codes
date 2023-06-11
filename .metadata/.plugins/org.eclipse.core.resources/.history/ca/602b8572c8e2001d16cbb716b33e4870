@@ -1,0 +1,12 @@
+package com.app.utility;
+
+import java.util.Map;
+
+import com.app.entity.Employee;
+
+public class DemoData {
+	
+	public static Map<Integer, Employee> getDemoData(){
+		Map<Integer, Employee> map = new HashMap<>();
+	}
+}

@@ -1,0 +1,20 @@
+package com.app.utility;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.app.entity.Department;
+import com.app.entity.Employee;
+
+public class DemoData {
+	
+	public static Map<Integer, Employee> getDemoData(){
+		Map<Integer, Employee> map = new HashMap<>();
+		
+		map.put(1, new Employee(1,"Prajwal", 200000.0,Department.valueOf("Hr".toUpperCase())));
+		
+		
+		
+		return map;
+	}
+}
